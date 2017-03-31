@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
   scanf("%d",&x);
   printf("y : ");
   scanf("%d",&y);
-  sonuc = recursive_pow_cmplx_O_n(x,y);
+  sonuc = pow_cmplx_O_n(x,y);
   printf("Sonuc : %d \nAdim Sayisi = %d \n",sonuc,sayac);
   
   system("PAUSE");	

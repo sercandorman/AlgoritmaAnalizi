@@ -3,7 +3,7 @@
 
 int sayac,x,y,sonuc=1,i=0;
 
-int recursive_pow_cmplx_O_n(int x, int y){
+int pow_cmplx_O_n(int x, int y){
     for (i=1;i<y+1;i++){
         sonuc=sonuc*x;
         sayac=sayac+1;
